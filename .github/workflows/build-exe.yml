@@ -1,4 +1,5 @@
 # .github/workflows/build-exe.yml
+
 # Workflow per compilare automaticamente l'EXE online
 
 name: 🚀 Build Windows EXE
