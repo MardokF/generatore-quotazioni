@@ -47,7 +47,7 @@ jobs:
         Get-ChildItem -Path "dist" -Recurse | Format-Table Name, Length, LastWriteTime
         
     - name: 🎯 Upload EXE Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: GeneratoreQuotazioni-Windows
         path: dist/GeneratoreQuotazioni.exe
